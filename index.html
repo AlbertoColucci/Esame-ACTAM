@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>PoorTronix</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style/scope.css">
+</head>
+
+
+<body>
+
+    <div id="scopeBox" class="scopeBox">
+
+        <div id="scopeScreenArea" class="scopeScreenArea">
+            <canvas id="scopeScreen" class="scopeScreen" width="2500px" height="2000px"></canvas>
+            <h4 id="voltText" class="scopeText voltText"></h4>
+            <h4 id="timeText" class="scopeText timeText"></h4>
+            <h4 id="triggerText" class="scopeText triggerText"></h4>
+            <div id="voltSection" class="silkscreen">
+                <h4 class="silkText">VERTICAL SETTINGS</h4>
+                <h4 id="voltOffsetText" class="silkText offset">OFFSET</h4>
+                <h4 id="voltDivText" class="silkText div">SCALE</h4>
+            </div>
+            <div id="timeSection" class="silkscreen">
+                <h4 class="silkText">HORIZONTAL SETTINGS</h4>
+                <h4 id="timeOffsetText" class="silkText offset">OFFSET</h4>
+                <h4 id="timeDivText" class="silkText div">SCALE</h4>
+            </div>
+            <div id="triggerSection" class="silkscreen">
+                <h4 id="triggerSectionText" class="silkText">TRIGGER SETTINGS</h4>
+                <h4 id="triggerLevelText" class="silkText offset">LEVEL</h4>
+                <h4 id="triggeredText" class="silkText offset">TRIG'D</h4>
+                <h4 id="triggerSlopeText" class="silkText offset">SLOPE</h4>
+                <div id="triggerSlopeBtn" class="slopeBtn"></div>
+                <div id="triggerLED" class="LED"></div>
+            </div>
+        </div>
+
+
+        <div id="pwrBtnContainer" class="pwrBtnContainer">
+            <button id="pwrBtn" class="pwrBtn"></button>
+        </div>
+    </div>
+
+</body>
+
+<script src="src/rotaryEncoder.js"></script>
+<script src="src/rotarySwitch.js"></script>
+<script src="src/scopeScreen.js"></script>
+<script src="src/signalProcessing.js"></script>
+<script src="src/index.js"></script>
+
+
+</html>
