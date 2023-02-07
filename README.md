@@ -1,7 +1,9 @@
 # Web Oscilloscope
 ## Inspired to the Tektronix 7603 scope
 
-##[Video Demo on Youtube](https://youtu.be/Xsd_C1Tucyw)
+[Demo on Youtube](https://youtu.be/Xsd_C1Tucyw)
+
+##
 
 
 
