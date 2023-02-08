@@ -1,7 +1,7 @@
 # Web Oscilloscope
 ## Inspired to the Tektronix 7603 scope
 
-[![IMAGE ALT TEXT](https://youtu.be/Xsd_C1Tucyw)](https://youtu.be/Xsd_C1Tucyw)
+[![IMAGE ALT TEXT](https://youtu.be/Xsd_C1Tucyw](https://img.youtube.com/vi/Xsd_C1Tucyw/0.jpg)](https://youtu.be/Xsd_C1Tucyw)
 
 ##
 
